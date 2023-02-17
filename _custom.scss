@@ -64,6 +64,26 @@ body {
         right: 10px;
     }
 }
+.nave {
+    display: flex;
+    justify-content: space-around;
+    li {
+        list-style: none;
+        margin-top: 30px;
+
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #033e45;
+            color: #fff;
+            padding: .5rem .9rem;
+            &:hover {
+                background-color: lighten( #033e45, 10);
+            }
+    
+        }
+    }
+}
 
 @media (max-width: 500px) {
     h1{

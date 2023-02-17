@@ -69,6 +69,28 @@ body h1 {
   right: 10px;
 }
 
+.nave {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nave li {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nave li a {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #033e45;
+  color: #fff;
+  padding: .5rem .9rem;
+}
+
+.nave li a:hover {
+  background-color: #056a76;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 18px;
