@@ -76,7 +76,8 @@ body h1 {
 
 .nave li {
   list-style: none;
-  margin-top: 30px;
+  margin-top: -50px;
+  margin-left: 40px;
 }
 
 .nave li a {
